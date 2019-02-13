@@ -1,0 +1,44 @@
+body {
+    height: 100%;
+    background: white url('./../../assets/images/bg.svg') no-repeat bottom right;
+    background-size: 82%;
+    filter: drop-shadow(8px 8px 5px rgba(0, 0, 0, 0.3));
+    min-width: 312px;
+}
+
+/* Extra small mobile version */
+h1 {
+    font-size: 1.2em;
+    margin: 0;
+    padding: 1em 0em 0em 1em;
+}
+
+ul {
+    margin: 0;
+    padding-left: 3em;
+    font-size: 1.05em;
+}
+
+li {
+    padding: 0.6em;
+
+}
+
+
+@media only screen and (min-width: 786px) {
+
+    h1 {
+        font-size: 2em;
+        margin: 0;
+    }
+    
+    ul {
+        padding-top: 0.5em;
+        padding-left: 4em;
+        font-size: 1.5em;
+    }
+    
+    li {
+        padding: .6em;
+    }
+}

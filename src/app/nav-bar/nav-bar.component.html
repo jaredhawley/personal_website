@@ -1,0 +1,23 @@
+<body>
+    
+    <aside>
+        <figure>
+            <img class= "image profilePicture" src="https://media.licdn.com/dms/image/C4D03AQFqnFaKOm5-MQ/profile-displayphoto-shrink_200_200/0?e=1553126400&v=beta&t=EDcO2ZZVMVUrDhavEf1aCf6U95NwWIicCHKAfcqLdiU" alt="Picture of Jared Hawley">
+            <figcaption>Jared Hawley</figcaption>
+        </figure>
+        <img class="image menuButton" src="assets/images/menu-black.svg" alt="Menu Button" (click)=this.toggleMenu()>
+        <nav>
+            <ul>
+                <li class="hvr-forward"><a routerLink="">Home</a></li>
+                <li class="hvr-forward"><a routerLink="/resume">Resume</a></li>
+                <li class="hvr-forward"><a routerLink="/coverletter">Cover Letter</a></li>
+                <li class="hvr-forward"><a routerLink="/readinglist">Reading List</a></li>
+                <li class="hvr-forward"><a routerLink="/contact">Contact</a></li>
+            </ul>
+        </nav>
+    </aside>
+    <main>  
+        <router-outlet></router-outlet> 
+    </main>
+
+</body>

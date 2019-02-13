@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a1dbff+0,3fb8ff+24,a1dbff+47,ffffff+100 */
+    background: #a1dbff; /* Old browsers */
+    background: -moz-linear-gradient(45deg, #a1dbff 0%, #3fb8ff 25%, #a1dbff 50%, #ffffff 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(45deg, #a1dbff 0%,#3fb8ff 25%,#a1dbff 50%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(45deg, #a1dbff 0%,#3fb8ff 25%,#a1dbff 50%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a1dbff', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* overflow: hidden; */
+    font-family: 'Montserrat';
+    padding: 0;
+    height: 100%;
+}
+
+@media only screen and (min-width: 786px) {
+    body {
+        display: block;
+        padding: 2em;
+        height: calc(100% - 4em);
+        min-height: 500px;
+    }
+}
+
